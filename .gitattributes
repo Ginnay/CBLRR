@@ -1,2 +1,2 @@
-*.m linguist-language=Octave
-*.md linguist-language=Octave
+*.m linguist-language=M
+*.md linguist-language=M
