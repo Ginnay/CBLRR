@@ -1,0 +1,3 @@
+*.js linguist-language=Octave
+*.css linguist-language=Octave
+*.html linguist-language=Octave
