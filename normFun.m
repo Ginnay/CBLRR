@@ -1,5 +1,5 @@
 function [ result ] = normFun( M )
-#normFun: Laplacian normalization
+%normFun: Laplacian normalization
 
     num = size(M,1);
     nM = zeros(num,num);
