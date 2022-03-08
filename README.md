@@ -4,7 +4,7 @@ CBLRR: A Bounded Constraint-Based Cauchy Low-Rank Representation Method for Sing
 
 ## Demo
 
-# Requires: octave 6.4.0
+# Requires: Matlab/octave 6.4.0
 
 # CBLRR(data, label) 
 
