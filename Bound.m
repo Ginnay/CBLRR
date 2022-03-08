@@ -6,7 +6,7 @@ i = 1;
 stop1 = 1;
 stop2 = 1;
 while(stop1 > tol1 || stop2 > tol2)
-    #the process of computing W
+    %the process of computing W
     tran = (1/beta) * (Y + alpha * (T.* trIndex)) + X;
     W = tran - (alpha/ (alpha + beta)) * (tran.* trIndex);
     W(W < a) = a; #a=0
