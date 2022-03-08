@@ -1,8 +1,8 @@
 function [ X, s ] = solve_nn( Y, tau )
-## Solves the following
-#   min tau * |X|_* + 1/2*|X - Y|^2
-# Created by Stephen Tierney
-# stierney@csu.edu.au
+%% Solves the following
+%   min tau * |X|_* + 1/2*|X - Y|^2
+% Created by Stephen Tierney
+% stierney@csu.edu.au
 
 [U, S, V] = svd(Y, 'econ');
 s = diag(S);
