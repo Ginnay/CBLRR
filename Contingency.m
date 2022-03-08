@@ -1,13 +1,13 @@
 function Cont=Contingency(Mem1,Mem2)
-#CONTINGENCY Form contigency matrix for two vectors
-# C=Contingency(Mem1,Mem2) returns contingency matrix for two
-# column vectors Mem1, Mem2. These define which cluster each entity 
-# has been assigned to.
-#
-# See also RANDINDEX.
-#
+%CONTINGENCY Form contigency matrix for two vectors
+% C=Contingency(Mem1,Mem2) returns contingency matrix for two
+% column vectors Mem1, Mem2. These define which cluster each entity 
+% has been assigned to.
+%
+% See also RANDINDEX.
+%
 
-#(C) David Corney (2000)   		D.Corney@cs.ucl.ac.uk
+%(C) David Corney (2000)   		D.Corney@cs.ucl.ac.uk
 
 if nargin < 2 | min(size(Mem1)) > 1 | min(size(Mem2)) > 1
    error('Contingency: Requires two vector arguments')
