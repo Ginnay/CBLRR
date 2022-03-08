@@ -1,6 +1,6 @@
 function [localX,coverage] = localize( C )
-#C is the coefficient matrix
-#S[tmp,ind] = sort(C,1,'descend');
+%C is the coefficient matrix
+%S[tmp,ind] = sort(C,1,'descend');
 [m,n]=size(C);
 localX=C;
 coverage=zeros(1,n);
