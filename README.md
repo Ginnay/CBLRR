@@ -1,6 +1,6 @@
 # CBLRR
 
-CBLRR: A Bounded Constraint-Based Cauchy Low-Rank Representation Method for Single-cell RNA-seq Data Analysis
+CBLRR: A Cachy-Based Bounded Constraint Low-Rank Representation Method for Single-cell RNA-seq Data Analysis
 
 ## Demo
 
