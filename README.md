@@ -26,7 +26,7 @@ SpectralClustering.m - Computes the clustering of the nodes using the spectral c
 
 cal_eigenvalues.m - Calculate the number of eigenvalues to determine the number of clusters(If the number of clusters is not given).
 
-data file: Due to the space limitation of github, we only give some datasets, other datasets can be downloaded from https://hemberg-lab.github.io/scRNA.seq.datasets/ and https://github.com/10XGenomics/single-cell-3prime-paper.
+data file: Due to the space limitation of github, we only give some datasets, other datasets can be downloaded from (https://hemberg-lab.github.io/scRNA.seq.datasets/) or (https://github.com/10XGenomics/single-cell-3prime-paper) and (https://doi.org/10.6084/m9.figshare.5829687.v7).
 
 #Example:
 
@@ -51,8 +51,5 @@ n_space = length(unique(true_labs));% The cluster is predefine.
 [NMIM,ARIM,NMI,ARI,grps,similarity,Z] = CBLRR(in_X,true_labs,n_space,alpha,beta,mu,a);
 
 # If you have any questions, please contact the author Qian Ding(dingqian19@126.com).
-
-
-
 
 
