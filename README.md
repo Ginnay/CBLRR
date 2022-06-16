@@ -7,10 +7,11 @@ CBLRR: A Cachy-Based Bounded Constraint Low-Rank Representation Method for Singl
 
 ### 1. Run CBLRR
 
-To apply CBLRR, please run the Matlab script file `demo.m`. We provide real examples used in our manuscript (Kolod) to reproduce our results. Please see the /Examples folder and the following details.
+To apply CBLRR, please run the Matlab script file `demo.m`. We provide real examples used in our manuscript (Kolod) to reproduce our results. 
 
 
 ### 2. Input Arguments
+Please see the /Input folder and the script file `demo.m` for details.
 
 * `in_X.mat`: the expression matrix of scRNA-seq data used in the CBLRR method. Taking the kolod data matrix as an example, the rows are the genes (10685) and the columns are the samples (704).
 
@@ -29,7 +30,7 @@ To apply CBLRR, please run the Matlab script file `demo.m`. We provide real exam
 
 ### 3. Output variables
 
-There are five output variables:
+There are five output variables. Please see the /Outut folder and the following details.
 
 * `NMI`: the Normalized Mutual Information of clustering results.
 
@@ -62,6 +63,9 @@ cal_eigenvalues.m - Calculate the number of eigenvalues to determine the number 
 
 data file: Due to the space limitation of github, we only give some datasets, other datasets can be downloaded from (https://hemberg-lab.github.io/scRNA.seq.datasets/) or (https://github.com/10XGenomics/single-cell-3prime-paper) and (https://doi.org/10.6084/m9.figshare.5829687.v7).
 
+Input file: Provide the example of input data. 
+
+Output file: Provide the example of output data. 
 
 ### 5. Example:
 
@@ -71,8 +75,8 @@ clear all;
 clc;
 
 %% input:
-load('Examples\in_X.mat') %Loading data, each column denotes a gene and each row denotes a cell.
-load('Examples\true_labs.mat') %Loading labels.
+load('Input\in_X.mat') %Loading data, each column denotes a gene and each row denotes a cell.
+load('Input\true_labs.mat') %Loading labels.
 
 %% set tuning parameters:
 alpha=1; % set as 1 by default.
