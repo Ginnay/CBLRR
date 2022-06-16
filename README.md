@@ -30,7 +30,7 @@ Please see the /Input folder and the script file `demo.m` for details.
 
 ### 3. Output variables
 
-There are five output variables. Please see the /Outut folder and the following details.
+There are five output variables. Please see the /Output folder and the following details.
 
 * `NMI`: the Normalized Mutual Information of clustering results.
 
