@@ -4,8 +4,8 @@ clear
 %% input:
 % The expression matrix of scRNA-seq data used in the CBLRR method.Taking the kolod data matrix as an example, the rows are the genes (10685) and the columns are the samples (704).
 % The labels of scRNA-seq data used in the CBLRR method. Taking the Kolod labels as an example, it contains 5 types (1, 2, ..., 5).
-load('Examples\in_X.mat') %Loading data, each column denotes a gene and each row denotes a cell.
-load('Examples\true_labs.mat') %Loading labels.
+load('\Data\Examples\Input\in_X.mat') %Loading data, each column denotes a gene and each row denotes a cell.
+load('\Data\Examples\Input\true_labs.mat') %Loading labels.
 
 %% set tuning parameters:
 alpha=1; % set as 1 by default.
