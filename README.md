@@ -71,8 +71,8 @@ clear all;
 clc;
 
 %% input:
-load('Input\in_X.mat') %Loading data, each column denotes a gene and each row denotes a cell.
-load('Input\true_labs.mat') %Loading labels.
+load('\Data\Examples\Input\in_X.mat') %Loading data, each column denotes a gene and each row denotes a cell.
+load('\Data\Examples\Input\true_labs.mat') %Loading labels.
 
 %% set tuning parameters:
 alpha=1; % set as 1 by default.
